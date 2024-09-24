@@ -1,8 +1,8 @@
 c=2
-p=4*c
-a=c**2
-b=(a>5)
-print("a= "+str(a)+ "b= "+str(b)+"p= "+str(p))
+P=4*c
+A=c**2
+b=(A>5)
+print("A="+str(A)+ " b="+str(b)+" P="+str(P))
 
 def perimetre(x) :
     return 4*x
@@ -13,4 +13,3 @@ def surface(x) :
     return x**2
 
 print(surface(c))
-
